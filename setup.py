@@ -190,7 +190,6 @@ def main():
             "-DBUILD_DOCS=OFF",
             "-DPYTHON3_LIMITED_API=ON",
             "-DBUILD_OPENEXR=ON",
-            "-OPENCV_ENABLE_NONFREE=ON"
         ]
         + (
             # CMake flags for windows/arm64 build

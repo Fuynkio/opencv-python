@@ -189,7 +189,8 @@ def main():
             "-DBUILD_PERF_TESTS=OFF",
             "-DBUILD_DOCS=OFF",
             "-DPYTHON3_LIMITED_API=ON",
-            "-DBUILD_OPENEXR=ON",
+            "-DBUILD_OPENCV_ENABLE_NONFREE=ON",
+            "-DBUILD_OPENEXR=ON",            
         ]
         + (
             # CMake flags for windows/arm64 build
